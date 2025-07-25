@@ -1,4 +1,4 @@
-import Layout from './layout/layout'
+import Layout from './layout/index'
 import Table from './pages/Table'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div>
       <Layout>
-
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path="table" element={<Table />}/>
